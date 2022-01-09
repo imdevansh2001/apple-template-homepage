@@ -1,0 +1,341 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* navbar*/
+
+
+.myNavbar {
+    background-color: rgb(0, 0, 0);
+}
+
+.bi-apple {
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+.bi-bag {
+    color: gainsboro;
+    padding-left: 1rem;
+}
+
+.bi-bag:hover {
+    color: white;
+    transition: 1;
+}
+
+.bi-search {
+    color: gainsboro;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+}
+
+.bi-search:hover {
+    color: white;
+    transition: 1;
+}
+
+.ls {
+    color: gainsboro;
+    font-size: 1rem;
+}
+
+.ls:hover {
+    color: white;
+    transition: 1;
+}
+
+.bi-list {
+    color: white;
+    font-size: 2rem;
+}
+
+.bi-list:hover {
+    color: white;
+}
+
+.bi-bag-fill {
+    color: gainsboro;
+    font-size: 1.5rem;
+    border: none;
+}
+
+.bi-bag-fill:hover {
+    color: white;
+}
+
+.fa-apple {
+    color: gainsboro;
+    font-size: 2rem;
+}
+
+.fa-apple:hover {
+    color: white;
+}
+
+/*-----media queries-----*/
+
+/* for phone*/
+@media(max-width:576px) {
+    .ls {
+        border-bottom: 0.1rem solid rgb(118, 116, 116);
+        padding-bottom: 0.5rem;
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: gainsboro;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .myNavbar {
+        background-color: rgb(10, 9, 9);
+    }
+
+    .bi-apple {
+        color: rgb(10, 9, 9);
+    }
+
+    .bi-search {
+        font-size: 1.2rem;
+    }
+
+    .bi-bag {
+        font-size: 1.2rem;
+    }
+}
+
+
+
+/* for ipad or tablets */
+@media(max-width:768px) {
+    .ls {
+        border-bottom: 0.1rem solid rgb(118, 116, 116);
+        padding-bottom: 0.5rem;
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: gainsboro;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .myNavbar {
+        background-color: rgb(10, 9, 9);
+    }
+
+    .bi-apple {
+        color: rgb(10, 9, 9);
+    }
+
+    .bi-search {
+        font-size: 1.2rem;
+    }
+
+    .bi-bag {
+        font-size: 1.2rem;
+    }
+}
+
+/* navbar ends */
+
+
+
+
+
+/* background section  */
+
+.emi {
+    background-color: rgb(235, 235, 235);
+    color: black;
+    font-size: 1rem;
+}
+
+.lm {
+    color: #2997ff;
+    padding-left: 0.2rem;
+    font-size: 1rem;
+}
+
+.ip-thirteen {
+    font-size: 3.2rem;
+    font-weight: bold;
+    color: black;
+}
+
+.oh-so-pro {
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lm-2 {
+    color: #2997ff;
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lm-2:hover {
+    border-bottom: 0.1rem solid #2997ff;
+}
+
+.buy {
+    color: #2997ff;
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 2rem;
+}
+
+.buy:hover {
+    border-bottom: 0.1rem solid #2997ff;
+}
+
+
+/* background section ends */
+
+
+/* i phone 13  starts */
+
+.my-Row {
+    background-color: rgb(54, 40, 61);
+}
+
+.i-phone-13 {
+    color: white;
+    background-color: rgb(54, 40, 61);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.super-power {
+    color: rgb(255, 171, 237);
+    background-color: rgb(54, 40, 61);
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+/* i phone 13  ends */
+
+
+
+/* mac book pro section starts */
+
+.mc-book {
+    font-size: 3.2rem;
+    font-weight: bold;
+    color: black;
+}
+
+.super-charged {
+    color: rgb(14, 13, 14);
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+/* mac book pro section ends */
+
+
+
+
+/* products */
+.watch-ipad {
+    margin-top: 5rem;
+}
+
+.new {
+    color: rgb(255, 51, 0)
+}
+
+.watch {
+    color: black;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.s-7 {
+    color: rgb(220, 23, 105);
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+.apple {
+    color: black;
+    font-size: 2.5rem;
+}
+
+.largest-display {
+    color: black;
+    font-size: 1.5rem;
+}
+
+.ipad-mini-heading {
+    color: black;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.arcade {
+    margin-top: 5rem;
+}
+
+/* products section ends */
+
+
+
+
+/* contact section */
+
+.contact-row {
+    background-color: rgb(238, 238, 238);
+}
+
+p {
+    color: rgb(45, 45, 45);
+}
+
+.contact-para {
+    color: rgb(32, 32, 32);
+}
+
+.services-heding {
+    color: rgb(32, 32, 32);
+    font-weight: 700;
+}
+
+.services-heding-2 {
+    color: rgb(32, 32, 32);
+    font-weight: 700;
+}
+
+.retail-no {
+    color: rgb(105, 105, 105);
+}
+
+.find-retailer {
+    color: blue;
+}
+
+.find-retailer:hover {
+    border-bottom: 0.1rem solid blue;
+}
+
+.number-row {
+    background-color: rgb(238, 238, 238);
+}
+
+.copy-right {
+    font-size: 0.8rem;
+}
+
+.last-small-section {
+    background-color: rgb(238, 238, 238);
+}
+
+span {
+    font-size: 0.8rem;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-weight: 500;
+}
